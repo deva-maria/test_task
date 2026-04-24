@@ -10,22 +10,23 @@
 # Запуск через терминал cmd:
 
 1. Создание виртуального окружения:
-
+```
 python -m venv .venv
-
-2. Активация окружения:
-
+```
+3. Активация окружения:
+```
 .venv\Scripts\Activate
-
+```
 3. Установка зависимостей:
-
+```
 pip install -r requirements.txt
-
+```
 4. Создание файла '.env' с токеном:
-
+```
 YADISK_TOKEN=oauth_token
 YADISK_BASE_URL=https://cloud-api.yandex.net
-
+```
 5. Запуск тестов:
-
+```
 python -m pytest
+```
